@@ -12,7 +12,7 @@ typedef struct
     Point To;
 } Path;
 
-enum DrawQuality {DQ_Low, DQ_Medium, DQ_High};
+enum DrawQuality { DQ_Low, DQ_Medium, DQ_High };
 
 // Font Data
 static constexpr Path Blank[] PROGMEM = { {{0,0},{0,0}} };

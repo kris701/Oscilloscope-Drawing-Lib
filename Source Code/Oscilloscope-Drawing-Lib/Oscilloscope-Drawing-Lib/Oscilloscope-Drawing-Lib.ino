@@ -6,10 +6,10 @@ unsigned long currentTimer;
 String FPS = "0";
 int FPSCounter = 0;
 
-Path TracePoint[] = { 
-    {{1318, 306}, {1638, 1414} }, 
-    { {1638, 1414},{1998, 273} }, 
-    { {1638, 1414},{1634, 2988} }, 
+Path TracePoint[] = {
+    {{1318, 306}, {1638, 1414} },
+    { {1638, 1414},{1998, 273} },
+    { {1638, 1414},{1634, 2988} },
     { {1638, 2433},{896, 2198} },
     { {1638, 2433},{2223, 2153} },
     { {1441, 3281},{1559, 3160} },
@@ -35,7 +35,7 @@ void loop() {
         FPSCounter++;
         DrawingClass.DrawRegtangle({ 0,0 }, 4095, 4095, 1, 0, false);
 
-        DrawingClass.DrawPath(TracePoint, 10, {1000,0}, 0.5, angle);
+        DrawingClass.DrawPath(TracePoint, 10, { 1000,0 }, 0.5, angle);
 
         DrawingClass.DrawString(FPS, { 150, 3600 }, 0.5, 0);
 

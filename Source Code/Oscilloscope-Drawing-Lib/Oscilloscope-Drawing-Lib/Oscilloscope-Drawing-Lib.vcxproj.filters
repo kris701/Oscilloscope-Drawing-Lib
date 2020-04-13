@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="OccDrawLib.ino" />
+    <None Include="Oscilloscope-Drawing-Lib.ino" />
     <None Include="src\arduino folders read me.txt">
       <Filter>Misc Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.OccDrawLib.vsarduino.h">
+    <ClInclude Include="__vm\.Oscilloscope-Drawing-Lib.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DrawLib.h">
